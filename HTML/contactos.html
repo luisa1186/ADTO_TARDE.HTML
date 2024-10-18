@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-AdsoT</title>
+    <link rel="preload" href="css/normaliza.css" as="style">
+    <link rel="stylesheet" href="css/normaliza.css" type="text/css">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo_Sena.png">
+        <h1 class="titulo">Taller de <span>HTML</span> Adso Tarde</h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="clientes.html">Clientes</a>
+            <a href="contactos.html">Contacto</a>
+        </nav>
+    </div>
+
+    <!--Creacio de formularios-->
+    <form class="formulario">
+        <h2>contacto</h2>
+        <fieldset>
+            <legend>Contactanos diligenciando todos los campos</legend>
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre: </label>
+                    <input class="input-text" type="text" placeholder="Escriba su nombre completo">
+                </div>
+                <div class="campo">
+                    <label>Telefono: </label>
+                    <input class="input-text" type="tel" placeholder="Digite su numero de telefono">
+                </div>
+                <div class="campo">
+                    <label>correo electronico: </label>
+                    <input class="input-text" type="email" placeholder="Digite un e-mail">
+                </div>
+                <div class="campo">
+                    <label>Mensaje: </label>
+                    <textarea class="input-text"></textarea>
+                </div>
+            </div>
+            <div>
+                <button class="boton" type="submit">Enviar</button>
+                <button class="boton" type="reset">Borrar</button>
+            </div>
+        </fieldset>
+    </form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados luisa_vrendon@soy.sena.edu.co</p>
+    </footer>
+</body>
+
+</html>
